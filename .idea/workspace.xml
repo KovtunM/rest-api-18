@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfc078d0-54fc-49fd-b34d-0fa0307fd513" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../RestAssuredStuddyAPI/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RestAssuredStuddyAPI/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RestAssuredStuddyAPI/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RestAssuredStuddyAPI/src/test/java/videoGameDB/TestGetGames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ReqresInTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SelenoidTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/schemes/status-scheme-response.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    <list default="true" id="bfc078d0-54fc-49fd-b34d-0fa0307fd513" name="Changes" comment="add tests">
+      <change beforePath="$PROJECT_DIR$/../TestsProjeck" beforeDir="false" afterPath="$PROJECT_DIR$/../TestsProjeck" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,6 +214,27 @@
       <option name="presentableId" value="Default" />
       <updated>1737555068602</updated>
     </task>
+    <task id="LOCAL-00001" summary="add tests">
+      <option name="closed" value="true" />
+      <created>1737578626757</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737578626757</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add tests">
+      <option name="closed" value="true" />
+      <created>1737578659652</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737578659652</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tests" />
   </component>
 </project>
