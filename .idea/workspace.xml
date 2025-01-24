@@ -8,6 +8,8 @@
       <change beforePath="$PROJECT_DIR$/../TestsProjeck" beforeDir="false" afterPath="$PROJECT_DIR$/../TestsProjeck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/ReqresInTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ReqresInTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SelenoidTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SelenoidTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/schemes/status-scheme-response.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/schemes-selenoid/selenoid-status-scheme-response.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,32 +62,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.ReqresInTests.createUserTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ReqresInTests.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ReqresInTests.registerUserTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ReqresInTests.successfulLoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ReqresInTests.unsuccessfulCreateWithMissingNameUserTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ReqresInTests.unsuccessfulLoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ReqresInTests.unsuccessfulLoginWithEmptyDataTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ReqresInTests.unsuccessfulLoginWithMissingEmailTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ReqresInTests.unsuccessfulLoginWithMissingEmailTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ReqresInTests.unsuccessfulRegisterUserTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ReqresInTests.unsuccessfulRegisterUserWithEmptyDataTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ReqresInTests.unsuccessfulRegisterUserWithMissingEmailTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SelenoidTests.checkJsonScheme.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.rest-api-18.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/kmh/IdeaProjects/rest-api-18&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.ReqresInTests.createUserTest.executor": "Run",
+    "Gradle.ReqresInTests.delayedResponseTest.executor": "Run",
+    "Gradle.ReqresInTests.executor": "Run",
+    "Gradle.ReqresInTests.registerUserTest.executor": "Run",
+    "Gradle.ReqresInTests.successfulLoginTest.executor": "Run",
+    "Gradle.ReqresInTests.unsuccessfulCreateWithMissingNameUserTest.executor": "Run",
+    "Gradle.ReqresInTests.unsuccessfulLoginTest.executor": "Run",
+    "Gradle.ReqresInTests.unsuccessfulLoginWithEmptyDataTest.executor": "Run",
+    "Gradle.ReqresInTests.unsuccessfulLoginWithMissingEmailTest.executor": "Run",
+    "Gradle.ReqresInTests.unsuccessfulLoginWithMissingEmailTest1.executor": "Run",
+    "Gradle.ReqresInTests.unsuccessfulRegisterUserTest.executor": "Run",
+    "Gradle.ReqresInTests.unsuccessfulRegisterUserWithEmptyDataTest.executor": "Run",
+    "Gradle.ReqresInTests.unsuccessfulRegisterUserWithMissingEmailTest.executor": "Run",
+    "Gradle.SelenoidTests.checkJsonScheme.executor": "Run",
+    "Gradle.rest-api-18.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/kmh/IdeaProjects/rest-api-18",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "build.tools"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.ReqresInTests">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/schemes" />
+      <recent name="$PROJECT_DIR$/src/test/resources/schemes/selenoid-shemes" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.ReqresInTests.delayedResponseTest">
     <configuration name="ReqresInTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -100,6 +110,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;tests.ReqresInTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ReqresInTests.delayedResponseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.ReqresInTests.delayedResponseTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -134,54 +168,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ReqresInTests.unsuccessfulLoginWithMissingEmailTest1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.ReqresInTests.unsuccessfulLoginWithMissingEmailTest1&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="ReqresInTests.unsuccessfulRegisterUserWithEmptyDataTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.ReqresInTests.unsuccessfulRegisterUserWithEmptyDataTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="ReqresInTests.unsuccessfulRegisterUserWithMissingEmailTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -206,13 +192,37 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="SelenoidTests.checkJsonScheme" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.SelenoidTests.checkJsonScheme&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ReqresInTests.delayedResponseTest" />
+        <item itemvalue="Gradle.SelenoidTests.checkJsonScheme" />
         <item itemvalue="Gradle.ReqresInTests" />
         <item itemvalue="Gradle.ReqresInTests.unsuccessfulCreateWithMissingNameUserTest" />
         <item itemvalue="Gradle.ReqresInTests.unsuccessfulRegisterUserWithMissingEmailTest" />
-        <item itemvalue="Gradle.ReqresInTests.unsuccessfulRegisterUserWithEmptyDataTest" />
-        <item itemvalue="Gradle.ReqresInTests.unsuccessfulLoginWithMissingEmailTest1" />
       </list>
     </recent_temporary>
   </component>

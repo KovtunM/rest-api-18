@@ -4,7 +4,8 @@ import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.http.ContentType.JSON;
-import static org.hamcrest.Matchers.is;
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
+import static org.hamcrest.Matchers.*;
 
 public class ReqresInTests {
 
@@ -221,6 +222,32 @@ public class ReqresInTests {
                 .body("job", is("leader"));
 //                .body("id", is(942))
 //                .body("createdAt", is("2025-01-22T20:08:28.407Z"));
+    }
+
+    @Test
+    void delayedResponseTest() {
+        given()
+                .log().uri()
+                .contentType(JSON)
+                .when()
+                .get("https://reqres.in/api/users?delay=3")
+                .then()
+                .log().status()
+                .log().body()
+                .statusCode(200)
+                .body("page", is(1))
+                .body("data.find { it.id == 1 }.last_name", equalTo("Bluth"))
+                .body("data.find { it.id == 2 }.first_name", equalTo("Janet"))
+                .body("data.find { it.id == 2 }.last_name", equalTo("Weaver"))
+                .body("data.find { it.id == 3 }.email", equalTo("emma.wong@reqres.in"))
+                .body("data.find { it.id == 4 }.avatar", equalTo("https://reqres.in/img/faces/4-image.jpg"))
+                .body("data.find { it.id == 5 }", allOf(
+                        hasEntry("first_name", "Charles"),
+                        hasEntry("last_name", "Morris"),
+                        hasEntry("email", "charles.morris@reqres.in"),
+                        hasEntry("avatar", "https://reqres.in/img/faces/5-image.jpg")))
+                .body("support.url", equalTo("https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral"))
+                .body(matchesJsonSchemaInClasspath("schemes-reqres-in/delayed-response-schemes.json"));
     }
 
 }
