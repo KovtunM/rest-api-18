@@ -13,8 +13,9 @@ public class ReqresInTests {
         2. get response: { "token": "QpwL5tke4Pnpja7X4" }
         3. Check token is QpwL5tke4Pnpja7X4
     */
+
     @Test
-    void successfulLoginTest(){
+    void successfulLoginTest() {
         String body = "{ \"email\": \"eve.holt@reqres.in\", \"password\": \"cityslicka\" }";
 
         given()
@@ -37,7 +38,7 @@ public class ReqresInTests {
     */
 
     @Test
-    void unsuccessfulLoginTest(){
+    void unsuccessfulLoginWithMissingPasswordTest() {
         String body = "{ \"email\": \"peter@klaven\" }";
 
         given()
@@ -54,14 +55,83 @@ public class ReqresInTests {
     }
 
     /*
-        1. Make request (POST) to https://reqres.in/api/register with body { "email": "eve.holt@reqres.in", "password": "pistol" }
-        2. get response: { "id": 4, "token": "QpwL5tke4Pnpja7X4" }
-        3. Check id is 4
-        4. Check token is QpwL5tke4Pnpja7X4
+        1. Make request (POST) to https://reqres.in/api/login with body { "password": "cityslicka" }
+        2. get response: { "error": "Missing email or username" }
+        3. Check error is Missing email or username
     */
 
     @Test
-    void successfulRegisterUserTest(){
+    void unsuccessfulLoginWithMissingEmailTest() {
+        String body = "{ \"password\": \"cityslicka\" }";
+
+        given()
+                .log().uri()
+                .body(body)
+                .contentType(JSON)
+                .when()
+                .post("https://reqres.in/api/login")
+                .then()
+                .log().status()
+                .log().body()
+                .statusCode(400)
+                .body("error", is("Missing email or username"));
+    }
+
+    /*
+        1. Make request (POST) to https://reqres.in/api/login with body {  }
+        2. get response: { "error": "Missing email or username" }
+        3. Check error is Missing email or username
+    */
+
+    @Test
+    void unsuccessfulLoginWithEmptyDataTest() {
+        String body = "{  }";
+
+        given()
+                .log().uri()
+                .body(body)
+                .contentType(JSON)
+                .when()
+                .post("https://reqres.in/api/login")
+                .then()
+                .log().status()
+                .log().body()
+                .statusCode(400)
+                .body("error", is("Missing email or username"));
+    }
+
+        /*
+        1. Make request (POST) to https://reqres.in/api/login with body {  }
+        2. get response: { "error": "Missing email or username" }
+        3. Check error is Missing email or username
+    */
+
+    @Test
+    void unsuccessfulRegisterUserWithEmptyDataTest() {
+        String body = "{  }";
+
+        given()
+                .log().uri()
+                .body(body)
+                .contentType(JSON)
+                .when()
+                .post("https://reqres.in/api/login")
+                .then()
+                .log().status()
+                .log().body()
+                .statusCode(400)
+                .body("error", is("Missing email or username"));
+    }
+
+    /*
+      1. Make request (POST) to https://reqres.in/api/register with body { "email": "eve.holt@reqres.in", "password": "pistol" }
+      2. get response: { "id": 4, "token": "QpwL5tke4Pnpja7X4" }
+      3. Check id is 4
+      4. Check token is QpwL5tke4Pnpja7X4
+   */
+
+    @Test
+    void successfulRegisterUserTest() {
         String body = "{ \"email\": \"eve.holt@reqres.in\", \"password\": \"pistol\" }";
 
         given()
@@ -85,7 +155,7 @@ public class ReqresInTests {
     */
 
     @Test
-    void unsuccessfulRegisterUserTest(){
+    void unsuccessfulRegisterUserWithMissingPasswordTest() {
         String body = "{ \"email\": \"sydney@fife\" }";
 
         given()
@@ -101,6 +171,29 @@ public class ReqresInTests {
                 .body("error", is("Missing password"));
     }
 
+        /*
+        1. Make request (POST) to https://reqres.in/api/register with body { "password": "pistol" }
+        2. get response: { "error": "Missing email or username" }
+        4. Check error is Missing email or username
+    */
+
+    @Test
+    void unsuccessfulRegisterUserWithMissingEmailTest() {
+        String body = "{ \"password\": \"pistol\" }";
+
+        given()
+                .log().uri()
+                .body(body)
+                .contentType(JSON)
+                .when()
+                .post("https://reqres.in/api/register")
+                .then()
+                .log().status()
+                .log().body()
+                .statusCode(400)
+                .body("error", is("Missing email or username"));
+    }
+
     /*
         1. Make request (POST) to https://reqres.in/api/users with body { "name": "morpheus", "job": "leader" }
         2. get response: { "name": "morpheus", "job": "leader", "id": "868", "createdAt": "2025-01-22T20:08:28.407Z" }
@@ -111,7 +204,7 @@ public class ReqresInTests {
     */
 
     @Test
-    void createUserTest(){
+    void successfulCreateUserTest() {
         String body = "{ \"name\": \"morpheus\", \"job\": \"leader\" }";
 
         given()
@@ -129,6 +222,7 @@ public class ReqresInTests {
 //                .body("id", is(942))
 //                .body("createdAt", is("2025-01-22T20:08:28.407Z"));
     }
+
 }
 
 

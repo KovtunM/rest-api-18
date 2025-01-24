@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bfc078d0-54fc-49fd-b34d-0fa0307fd513" name="Changes" comment="add tests">
       <change beforePath="$PROJECT_DIR$/../TestsProjeck" beforeDir="false" afterPath="$PROJECT_DIR$/../TestsProjeck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ReqresInTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ReqresInTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -55,25 +60,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.ReqresInTests.createUserTest.executor": "Run",
-    "Gradle.ReqresInTests.executor": "Run",
-    "Gradle.ReqresInTests.registerUserTest.executor": "Run",
-    "Gradle.ReqresInTests.successfulLoginTest.executor": "Run",
-    "Gradle.ReqresInTests.unsuccessfulLoginTest.executor": "Run",
-    "Gradle.ReqresInTests.unsuccessfulRegisterUserTest.executor": "Run",
-    "Gradle.SelenoidTests.checkJsonScheme.executor": "Run",
-    "Gradle.rest-api-18.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/kmh/IdeaProjects/rest-api-18",
-    "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "build.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.ReqresInTests.createUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReqresInTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReqresInTests.registerUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReqresInTests.successfulLoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReqresInTests.unsuccessfulCreateWithMissingNameUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReqresInTests.unsuccessfulLoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReqresInTests.unsuccessfulLoginWithEmptyDataTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReqresInTests.unsuccessfulLoginWithMissingEmailTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReqresInTests.unsuccessfulLoginWithMissingEmailTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReqresInTests.unsuccessfulRegisterUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReqresInTests.unsuccessfulRegisterUserWithEmptyDataTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReqresInTests.unsuccessfulRegisterUserWithMissingEmailTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SelenoidTests.checkJsonScheme.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.rest-api-18.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kmh/IdeaProjects/rest-api-18&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.ReqresInTests">
     <configuration name="ReqresInTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -99,7 +110,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ReqresInTests.createUserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ReqresInTests.unsuccessfulCreateWithMissingNameUserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -112,7 +123,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.ReqresInTests.createUserTest&quot;" />
+            <option value="&quot;tests.ReqresInTests.unsuccessfulCreateWithMissingNameUserTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -123,7 +134,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ReqresInTests.registerUserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ReqresInTests.unsuccessfulLoginWithMissingEmailTest1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -136,7 +147,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.ReqresInTests.registerUserTest&quot;" />
+            <option value="&quot;tests.ReqresInTests.unsuccessfulLoginWithMissingEmailTest1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -147,7 +158,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ReqresInTests.unsuccessfulLoginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ReqresInTests.unsuccessfulRegisterUserWithEmptyDataTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -160,7 +171,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.ReqresInTests.unsuccessfulLoginTest&quot;" />
+            <option value="&quot;tests.ReqresInTests.unsuccessfulRegisterUserWithEmptyDataTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -171,7 +182,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ReqresInTests.unsuccessfulRegisterUserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ReqresInTests.unsuccessfulRegisterUserWithMissingEmailTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -184,7 +195,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.ReqresInTests.unsuccessfulRegisterUserTest&quot;" />
+            <option value="&quot;tests.ReqresInTests.unsuccessfulRegisterUserWithMissingEmailTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -198,10 +209,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.ReqresInTests" />
-        <item itemvalue="Gradle.ReqresInTests.createUserTest" />
-        <item itemvalue="Gradle.ReqresInTests.unsuccessfulRegisterUserTest" />
-        <item itemvalue="Gradle.ReqresInTests.registerUserTest" />
-        <item itemvalue="Gradle.ReqresInTests.unsuccessfulLoginTest" />
+        <item itemvalue="Gradle.ReqresInTests.unsuccessfulCreateWithMissingNameUserTest" />
+        <item itemvalue="Gradle.ReqresInTests.unsuccessfulRegisterUserWithMissingEmailTest" />
+        <item itemvalue="Gradle.ReqresInTests.unsuccessfulRegisterUserWithEmptyDataTest" />
+        <item itemvalue="Gradle.ReqresInTests.unsuccessfulLoginWithMissingEmailTest1" />
       </list>
     </recent_temporary>
   </component>
