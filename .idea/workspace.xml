@@ -7,9 +7,11 @@
     <list default="true" id="bfc078d0-54fc-49fd-b34d-0fa0307fd513" name="Changes" comment="add tests">
       <change beforePath="$PROJECT_DIR$/../TestsProjeck" beforeDir="false" afterPath="$PROJECT_DIR$/../TestsProjeck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/ReqresInTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ReqresInTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/SelenoidTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SelenoidTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/schemes/status-scheme-response.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/schemes-selenoid/selenoid-status-scheme-response.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/schemes-reqres-in/delayed-response-schemes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/schemes-selenoid/selenoid-status-scheme-response.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +60,16 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2rzHcWh5lWCvdtZABd76JfvnUWf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.ReqresInExtendedTests.successfulLoginWithPojoTest.executor": "Run",
     "Gradle.ReqresInTests.createUserTest.executor": "Run",
     "Gradle.ReqresInTests.delayedResponseTest.executor": "Run",
     "Gradle.ReqresInTests.executor": "Run",
@@ -81,11 +87,11 @@
     "Gradle.rest-api-18.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "models",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/kmh/IdeaProjects/rest-api-18",
     "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "build.tools"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -94,8 +100,35 @@
       <recent name="$PROJECT_DIR$/src/test/resources/schemes/selenoid-shemes" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="models.lombok" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.ReqresInTests.delayedResponseTest">
+  <component name="RunManager" selected="Gradle.ReqresInExtendedTests.successfulLoginWithPojoTest">
+    <configuration name="ReqresInExtendedTests.successfulLoginWithPojoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.ReqresInExtendedTests.successfulLoginWithPojoTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="ReqresInTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -110,30 +143,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;tests.ReqresInTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="ReqresInTests.delayedResponseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.ReqresInTests.delayedResponseTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -218,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ReqresInTests.delayedResponseTest" />
-        <item itemvalue="Gradle.SelenoidTests.checkJsonScheme" />
+        <item itemvalue="Gradle.ReqresInExtendedTests.successfulLoginWithPojoTest" />
         <item itemvalue="Gradle.ReqresInTests" />
-        <item itemvalue="Gradle.ReqresInTests.unsuccessfulCreateWithMissingNameUserTest" />
+        <item itemvalue="Gradle.SelenoidTests.checkJsonScheme" />
         <item itemvalue="Gradle.ReqresInTests.unsuccessfulRegisterUserWithMissingEmailTest" />
+        <item itemvalue="Gradle.ReqresInTests.unsuccessfulCreateWithMissingNameUserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -253,6 +262,17 @@
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add tests" />

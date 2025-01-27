@@ -136,7 +136,7 @@ public class SelenoidTests {
                 .statusCode(200)
                 .body("total", is(20))
                 .body("browsers.chrome", hasKey("100.0"))
-                .body(matchesJsonSchemaInClasspath("schemes-selenoid/selenoid-status-scheme-response.json"));
+                .body(matchesJsonSchemaInClasspath("schemes/schemes-selenoid/selenoid-status-scheme-response.json"));
     }
 }
 

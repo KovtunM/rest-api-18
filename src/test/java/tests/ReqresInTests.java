@@ -247,7 +247,7 @@ public class ReqresInTests {
                         hasEntry("email", "charles.morris@reqres.in"),
                         hasEntry("avatar", "https://reqres.in/img/faces/5-image.jpg")))
                 .body("support.url", equalTo("https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral"))
-                .body(matchesJsonSchemaInClasspath("schemes-reqres-in/delayed-response-schemes.json"));
+                .body(matchesJsonSchemaInClasspath("schemes/schemes-reqres-in/delayed-response-schemes.json"));
     }
 
 }
