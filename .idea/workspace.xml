@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfc078d0-54fc-49fd-b34d-0fa0307fd513" name="Changes" comment="add tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/CustomAllureListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tpl/request.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tpl/response.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/specs/LoginSpec.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestsProjeck" beforeDir="false" afterPath="$PROJECT_DIR$/../TestsProjeck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/ReqresInExtendedTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ReqresInExtendedTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +78,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.ReqresInExtendedTests.executor": "Run",
+    "Gradle.ReqresInExtendedTests.successfulLoginParametrizedTest.executor": "Run",
+    "Gradle.ReqresInExtendedTests.successfulLoginWithAllureSpecsTest.executor": "Run",
     "Gradle.ReqresInExtendedTests.successfulLoginWithAllureStepsTest.executor": "Run",
     "Gradle.ReqresInExtendedTests.successfulLoginWithAllureTest.executor": "Run",
     "Gradle.ReqresInExtendedTests.successfulLoginWithCustomAllureTest.executor": "Run",
@@ -126,7 +125,55 @@
       <recent name="models.lombok" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ReqresInExtendedTests.successfulLoginWithAllureStepsTest">
+  <component name="RunManager" selected="Gradle.ReqresInExtendedTests.successfulLoginParametrizedTest">
+    <configuration name="ReqresInExtendedTests.successfulLoginParametrizedTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.ReqresInExtendedTests.successfulLoginParametrizedTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ReqresInExtendedTests.successfulLoginWithAllureSpecsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.ReqresInExtendedTests.successfulLoginWithAllureSpecsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="ReqresInExtendedTests.successfulLoginWithAllureStepsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -141,30 +188,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;tests.ReqresInExtendedTests.successfulLoginWithAllureStepsTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="ReqresInExtendedTests.successfulLoginWithAllureTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.ReqresInExtendedTests.successfulLoginWithAllureTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -199,30 +222,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ReqresInTests.delayedResponseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.ReqresInTests.delayedResponseTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="rest-api-18 [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -247,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ReqresInExtendedTests.successfulLoginParametrizedTest" />
+        <item itemvalue="Gradle.ReqresInExtendedTests.successfulLoginWithAllureSpecsTest" />
         <item itemvalue="Gradle.ReqresInExtendedTests.successfulLoginWithAllureStepsTest" />
         <item itemvalue="Gradle.ReqresInExtendedTests.successfulLoginWithCustomAllureTest" />
         <item itemvalue="Gradle.rest-api-18 [allureServe]" />
-        <item itemvalue="Gradle.ReqresInTests.delayedResponseTest" />
-        <item itemvalue="Gradle.ReqresInExtendedTests.successfulLoginWithAllureTest" />
       </list>
     </recent_temporary>
   </component>
