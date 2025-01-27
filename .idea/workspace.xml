@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfc078d0-54fc-49fd-b34d-0fa0307fd513" name="Changes" comment="add tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/CustomAllureListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tpl/request.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tpl/response.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestsProjeck" beforeDir="false" afterPath="$PROJECT_DIR$/../TestsProjeck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ReqresInTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ReqresInTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SelenoidTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SelenoidTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/schemes-reqres-in/delayed-response-schemes.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/schemes-selenoid/selenoid-status-scheme-response.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ReqresInExtendedTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ReqresInExtendedTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,17 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="rest-api-18" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="rest-api-18" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="rest-api-18" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -54,7 +65,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -69,6 +80,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.ReqresInExtendedTests.executor": "Run",
+    "Gradle.ReqresInExtendedTests.successfulLoginWithAllureStepsTest.executor": "Run",
+    "Gradle.ReqresInExtendedTests.successfulLoginWithAllureTest.executor": "Run",
+    "Gradle.ReqresInExtendedTests.successfulLoginWithCustomAllureTest.executor": "Run",
+    "Gradle.ReqresInExtendedTests.successfulLoginWithLombokTest.executor": "Run",
     "Gradle.ReqresInExtendedTests.successfulLoginWithPojoTest.executor": "Run",
     "Gradle.ReqresInTests.createUserTest.executor": "Run",
     "Gradle.ReqresInTests.delayedResponseTest.executor": "Run",
@@ -84,14 +100,20 @@
     "Gradle.ReqresInTests.unsuccessfulRegisterUserWithEmptyDataTest.executor": "Run",
     "Gradle.ReqresInTests.unsuccessfulRegisterUserWithMissingEmailTest.executor": "Run",
     "Gradle.SelenoidTests.checkJsonScheme.executor": "Run",
+    "Gradle.rest-api-18 [allureReport].executor": "Run",
+    "Gradle.rest-api-18 [allureServe].executor": "Run",
+    "Gradle.rest-api-18 [check].executor": "Run",
     "Gradle.rest-api-18.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "models",
+    "git-widget-placeholder": "allure",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/kmh/IdeaProjects/rest-api-18",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
     "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -104,8 +126,8 @@
       <recent name="models.lombok" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ReqresInExtendedTests.successfulLoginWithPojoTest">
-    <configuration name="ReqresInExtendedTests.successfulLoginWithPojoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ReqresInExtendedTests.successfulLoginWithAllureStepsTest">
+    <configuration name="ReqresInExtendedTests.successfulLoginWithAllureStepsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -118,7 +140,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.ReqresInExtendedTests.successfulLoginWithPojoTest&quot;" />
+            <option value="&quot;tests.ReqresInExtendedTests.successfulLoginWithAllureStepsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -129,7 +151,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ReqresInTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ReqresInExtendedTests.successfulLoginWithAllureTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -142,7 +164,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.ReqresInTests&quot;" />
+            <option value="&quot;tests.ReqresInExtendedTests.successfulLoginWithAllureTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -153,7 +175,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ReqresInTests.unsuccessfulCreateWithMissingNameUserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ReqresInExtendedTests.successfulLoginWithCustomAllureTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -166,7 +188,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.ReqresInTests.unsuccessfulCreateWithMissingNameUserTest&quot;" />
+            <option value="&quot;tests.ReqresInExtendedTests.successfulLoginWithCustomAllureTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -177,7 +199,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ReqresInTests.unsuccessfulRegisterUserWithMissingEmailTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ReqresInTests.delayedResponseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -190,7 +212,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.ReqresInTests.unsuccessfulRegisterUserWithMissingEmailTest&quot;" />
+            <option value="&quot;tests.ReqresInTests.delayedResponseTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -201,37 +223,35 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SelenoidTests.checkJsonScheme" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="rest-api-18 [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.SelenoidTests.checkJsonScheme&quot;" />
+            <option value="allureServe" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ReqresInExtendedTests.successfulLoginWithPojoTest" />
-        <item itemvalue="Gradle.ReqresInTests" />
-        <item itemvalue="Gradle.SelenoidTests.checkJsonScheme" />
-        <item itemvalue="Gradle.ReqresInTests.unsuccessfulRegisterUserWithMissingEmailTest" />
-        <item itemvalue="Gradle.ReqresInTests.unsuccessfulCreateWithMissingNameUserTest" />
+        <item itemvalue="Gradle.ReqresInExtendedTests.successfulLoginWithAllureStepsTest" />
+        <item itemvalue="Gradle.ReqresInExtendedTests.successfulLoginWithCustomAllureTest" />
+        <item itemvalue="Gradle.rest-api-18 [allureServe]" />
+        <item itemvalue="Gradle.ReqresInTests.delayedResponseTest" />
+        <item itemvalue="Gradle.ReqresInExtendedTests.successfulLoginWithAllureTest" />
       </list>
     </recent_temporary>
   </component>
@@ -263,12 +283,49 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ftl" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="58c96e81-f3f6-46f9-a3d5-0a296e05ec9f" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="58c96e81-f3f6-46f9-a3d5-0a296e05ec9f">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="models" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="models" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -277,5 +334,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add tests" />
     <option name="LAST_COMMIT_MESSAGE" value="add tests" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/rest_api_18$ReqresInExtendedTests_successfulLoginWithAllureTest.ic" NAME="ReqresInExtendedTests.successfulLoginWithAllureTest Coverage Results" MODIFIED="1737990351729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
